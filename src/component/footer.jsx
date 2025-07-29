@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
 import logo from '../assets/MedcapLogo.png';
+import fb from '../assets/facebook-f-brands-solid-full.svg';
+import insta from '../assets/instagram-brands-solid-full.svg';
+import linkedin from '../assets/linkedin-in-brands-solid-full.svg';
+import x from '../assets/x-twitter-brands-solid-full.svg';
 function Footer() {
   return (
-    <footer className="bg-gray-200 text-gray-500 py-6 md:flex md:flex-col md:items-center md:">
+    <footer className="bg-gray-200 text-gray-500 mt-20 py-6 md:flex md:flex-col md:items-center md:">
         <div className="grid grid-col-1 border-b-1 pb-2 mb-2 md:w-[90%] md:grid-cols-3 lg:grid-cols-3 gap-4 px-6  md:place-items-center md:items-baseline md:text-xl">
             <div>
                 <div>
@@ -48,10 +52,10 @@ function Footer() {
       <div >
         <p className="px-5 md:text-xl">© 2025 MedcapSky. All Rights Reserved</p>
         <div className="flex justify-center items-center gap-4 mt-2">
-            <a href="https://www.facebook.com/people/Go-Med-Go/pfbid012v1PmrDJgBiAGnH2HEzrRK9EKWH88ry4T4svXPD9jMu1k5xqB85bKFECzWUAxYrl/?rdid=Xy6TeXrrngTqf3r2&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AazbqPRCS%2F" className="w-[8%] md:w-[7%]"><img src="src\assets\facebook-f-brands-solid-full.svg"/></a>
-            <a href="https://www.instagram.com/medcapsky/" className="w-[8%] md:w-[8%]"><img src="src\assets\instagram-brands-solid-full.svg" /></a>
-            <a href="https://www.linkedin.com/company/medcapsky/" className="w-[8%] md:w-[8%]"><img src="src\assets\linkedin-in-brands-solid-full.svg" /></a>
-            <a href="https://x.com/medcapsky/" className="w-[8%] md:w-[8%]"><img src="src\assets\x-twitter-brands-solid-full.svg" /></a>
+            <a href="https://www.facebook.com/people/Go-Med-Go/pfbid012v1PmrDJgBiAGnH2HEzrRK9EKWH88ry4T4svXPD9jMu1k5xqB85bKFECzWUAxYrl/?rdid=Xy6TeXrrngTqf3r2&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AazbqPRCS%2F" className="w-[8%] md:w-[7%]"><img src={fb}/></a>
+            <a href="https://www.instagram.com/medcapsky/" className="w-[8%] md:w-[8%]"><img src={insta} /></a>
+            <a href="https://www.linkedin.com/company/medcapsky/" className="w-[8%] md:w-[8%]"><img src={linkedin} /></a>
+            <a href="https://x.com/medcapsky/" className="w-[8%] md:w-[8%]"><img src={x} /></a>
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ function PhoneBn(){
     return(
         <>
             
-            <div>
+        <div>
             {/* First banner */}  
             <div className="flex flex-col items-center w-full md:flex md:flex-row md:justify-around my-10  md:p-8">
                 {/* Left side content */}
@@ -17,13 +17,13 @@ function PhoneBn(){
                        
                         {/* heading */}
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="text-2xl md:text-5xl font-bold text-center my-4"> Personalised <span className="text-blue-500">Baby Care</span> at Home</h1>
-                        <img src = {Group_25} alt="Phone Banner" className="w-[50%] md:hidden " />
+                        <h1 className="text-3xl md:text-5xl  font-bold text-center my-5"> Personalised <span className="text-blue-500">Baby Care</span> at Home</h1>
+                        <img src = {Group_25} alt="Phone Banner" className="w-[50%] md:hidden my-5" />
                     </div>
                        
                         {/* written content */}
                     <div className=" p-4">
-                        <p className="md:text-xl text-center">Get expert care for your infant or toddler at home with our trained and loving caregivers. From feeding and hygiene to play and comfort, we ensure gentle, reliable support tailored to your child’s needs. Flexible schedules, personalized plans, and regular updates—so you can focus on what matters most.</p>
+                        <p className=" md:text-xl text-center mt-5">Get expert care for your infant or toddler at home with our trained and loving caregivers. From feeding and hygiene to play and comfort, we ensure gentle, reliable support tailored to your child’s needs. Flexible schedules, personalized plans, and regular updates—so you can focus on what matters most.</p>
                     </div>
                     <BookBtn name="Book Caretaker"/>
                 </div>
@@ -51,8 +51,8 @@ function PhoneBn(){
                        
                         {/* heading */}
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="text-2xl md:text-5xl font-bold text-center my-4"> Select <span className="text-blue-500">Baby Care</span> at Home</h1>
-                        <img src={Group_49} alt="Phone Banner" className="w-[50%] md:hidden " />
+                        <h1 className="text-3xl md:text-5xl font-bold text-center my-5"> Select <span className="text-blue-500">Baby Care</span> at Home</h1>
+                        <img src={Group_49} alt="Phone Banner" className="w-[50%] md:hidden my-5" />
                     </div>
                        
                         {/* written content */}

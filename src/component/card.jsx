@@ -55,6 +55,7 @@ function StatisticCard({ title, value, change, changeColor = "text-green-400" })
       transform transition-all duration-300 hover:scale-105
       border-b-4 border-purple-900 flex flex-col
       justify-center 
+       
       
     ">
       {/* Background overlay for subtle texture/pattern if desired */}

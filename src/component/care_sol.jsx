@@ -114,7 +114,7 @@ function CareSol() {
              {/* fifth Card */}
             <div className="flex justify-center items-center ">
                 
-                <div className="max-w-[25%] flex items-center justify-center md:mr-5 ">
+                <div className="max-w-[25%] flex items-center justify-center mr-5 ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
                     <img src={post_surgery_logo}/>

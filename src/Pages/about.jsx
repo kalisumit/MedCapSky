@@ -1,9 +1,14 @@
 import Footer from '../component/footer';
+import About_bn from '../assets/about_bn.png';
+import Intro_abt from '../assets/intro_abt.png';
+import Mission_abt from '../assets/mission_abt.png';
+import Vision_abt from '../assets/vision_abt.png';
+import work_abt from '../assets/work_abt.png';
 function About() {
   return(
     <> 
       <div className="w-full  bg-center relative">
-        <img src="src/assets/about_bn.png" alt="About Us" className="mt-20 w-full h-auto max-w-full object-contain" />
+        <img src={About_bn} alt="About Us" className="mt-20 w-full h-auto max-w-full object-contain" />
       </div>
 
       <div className=" mx-auto px-4 py-8">
@@ -21,7 +26,7 @@ function About() {
           md:flex-row md:justify-around md:items-start ">
 
             {/* image  */}
-            <img src="src/assets/intro_abt.png" alt="About Logo" 
+            <img src={Intro_abt} alt="About Logo" 
             className="
             h-[60vh] mx-auto my-4 mb-6 
             md:h-[80vh] t " />
@@ -47,7 +52,7 @@ function About() {
           md:flex-row md:justify-around md:items-start ">
 
             {/* image  */}
-            <img src="src/assets/mission_abt.png" alt="About Logo" 
+            <img src={Mission_abt} alt="About Logo" 
             className="
             h-[60vh] mx-auto my-4 mb-6 
             md:h-[80vh] t " />
@@ -73,7 +78,7 @@ function About() {
           md:flex-row md:justify-around md:items-start ">
 
             {/* image  */}
-            <img src="src/assets/vision_abt.png" alt="About Logo" 
+            <img src={Vision_abt} alt="About Logo" 
             className="
             h-[60vh] mx-auto my-4 mb-6 
             md:h-[80vh] t " />
@@ -94,7 +99,7 @@ function About() {
           <h1 className="text-5xl font-bold text-center text-[#545454] mb-4">Work Activity (2019-2025 & Ongoing )</h1>
           {/* image and content  */}
           <div className="flex flex-col items-center justify-center text-center">
-            <img src="src/assets/work_abt.png" alt="About Logo" className=" mx-auto my-4 mb-6" />
+            <img src={work_abt} alt="About Logo" className=" mx-auto my-4 mb-6" />
             <p className="text-2xl text-[#7c7c7c]">Over the past 6+ years, we have successfully deployed highly trained medical professionals to various home care and hospitals, fulfilling critical, Emergency, ACLS & BCLS staffing gaps in the healthcare sector. Our services have directly contributed to improving hospital operations, patient care standards, and overall healthcare efficiency.<br/>By building strong relationships with leading hospitals and healthcare facilities, we have established ourselves as a trusted staffing provider capable of delivering qualified professionals on time and as per demand.
 
 </p>
