@@ -1,4 +1,11 @@
-function CareSol(src, heading, content) {
+import Nursing from '../assets/nursing_logo.png';
+import MedicalStaf from '../assets/medical_staf_logo.png';
+import Elderly_logo from '../assets/Elderly_logo.png';
+import physio_logo from '../assets/physio_logo.png';
+import post_surgery_logo from '../assets/post_surgery_logo.png';
+import logo_mobile from '../assets/logo_mobile.png';
+
+function CareSol() {
     return(
         <>
                 <h1 className="text-center text-3xl md:text-5xl pt-5 font-semibold">Complete Medical Care Solutions</h1>
@@ -10,7 +17,7 @@ function CareSol(src, heading, content) {
                     <div className="max-w-[30%] flex items-center justify-center ">
                         {/* image */}
                         {/* <img src={src} className="w-full" /> */}
-                        <img src="src\assets\nursing logo.png"/>
+                        <img src={Nursing}/>
 
                     </div>
                     <div className="w-[70%]">
@@ -35,7 +42,7 @@ function CareSol(src, heading, content) {
                 <div className="max-w-[30%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
-                    <img src="src\assets\medical_staf logo.png"/>
+                    <img src={MedicalStaf}/>
 
                 </div>
                 <div className="w-[70%]">
@@ -60,7 +67,7 @@ function CareSol(src, heading, content) {
                 <div className="max-w-[30%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
-                    <img src="src\assets\Elderly logo.png"/>
+                    <img src={Elderly_logo}/>
 
                 </div>
                 <div className="w-[70%]">
@@ -82,10 +89,10 @@ function CareSol(src, heading, content) {
              {/* Fourth Card */}
             <div className="flex justify-center items-center ">
                 <div className=" flex justify-around items-center">
-                <div className="max-w-[30%] flex items-center justify-center ">
+                <div className="max-w-[25%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
-                    <img src="src\assets\physio logo.png"/>
+                    <img src={physio_logo}/>
 
                 </div>
                 <div className="w-[70%]">
@@ -107,10 +114,10 @@ function CareSol(src, heading, content) {
              {/* fifth Card */}
             <div className="flex justify-center items-center ">
                 
-                <div className="max-w-[30%] flex items-center justify-center ">
+                <div className="max-w-[25%] flex items-center justify-center md:mr-5 ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
-                    <img src="src\assets\post_surgery logo.png"/>
+                    <img src={post_surgery_logo}/>
 
                 </div>
                 <div className="w-[70%]">
@@ -133,10 +140,10 @@ function CareSol(src, heading, content) {
             {/* Sixth Card */}
             <div className="flex justify-center items-center ">
                 
-                <div className="max-w-[30%] flex items-center justify-center ">
+                <div className="max-w-[25%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
-                    <img src="src\assets\logo_mobile.png"/>
+                    <img src={logo_mobile}/>
 
                 </div>
                 <div className="w-[70%]">

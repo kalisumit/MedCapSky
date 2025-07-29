@@ -1,6 +1,8 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
+import HomeSlider1 from '../assets/homeSlider1.png';
+import HomeSlider2 from '../assets/homeSlider2.png';
 
 function HomeSlider() {
     var settings = {
@@ -36,11 +38,11 @@ function HomeSlider() {
 const data = [
     {
         
-        img: "src/assets/Desktop - 21.png",
+        img: HomeSlider1,
         
     },
     {
-    img: "src/assets/Desktop - 16.png",
+    img: HomeSlider2,
     }]
 
 export default HomeSlider;

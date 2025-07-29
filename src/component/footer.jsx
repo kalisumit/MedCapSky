@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import logo from '../assets/MedcapLogo.png';
 function Footer() {
   return (
     <footer className="bg-gray-200 text-gray-500 py-6 md:flex md:flex-col md:items-center md:">
@@ -7,7 +8,7 @@ function Footer() {
                 <div>
                     {/* Logo  */}
                     <img
-                            src="src/assets/logo-no-background 3.png"
+                            src={logo}
                             className="max-w-[13rem] my-[5px]"
                         />
                 </div >

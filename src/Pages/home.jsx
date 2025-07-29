@@ -1,11 +1,12 @@
-import Review from '/component/reviews.jsx' 
-import Card from '/component/card.jsx'
-import Banner from '/component/banner';
-import PhoneBn from '/component/phone_bn.jsx' 
-import CareSol from '/component/care_sol';
-import Sliders from '/component/slider';
-import HomeSlider from '/component/home_slider.jsx';
-import Footer from '/component/footer';
+import Review from '../component/reviews.jsx' 
+import Card from '../component/card.jsx'
+import Banner from '../component/banner';
+import PhoneBn from '../component/phone_bn.jsx' 
+import CareSol from '../component/care_sol';
+import Sliders from '../component/slider';
+import HomeSlider from '../component/home_slider.jsx';
+import Footer from '../component/footer';
+
 function Home(){
     return (
         <>
@@ -20,9 +21,7 @@ function Home(){
         {/* <Banner/> */}
         <PhoneBn/>
         <CareSol
-            src="src\assets\nursing logo.png"
-            heading="Baby Care Solution"
-            content="We provide the best care for your baby at home."
+           
         />
         <Footer/>
         

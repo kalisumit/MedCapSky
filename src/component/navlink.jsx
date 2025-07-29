@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react';
 // import BookBtn from '../component/book_btn.jsx';
 import PopupModel from './popup_model';
+import logo from '../assets/MedcapLogo.png';
 function Navlink(){
     const [open, setOpen] = useState(false);
 
@@ -15,7 +16,8 @@ function Navlink(){
         <nav className="fixed top-0 left-0 w-full z-50 border-b-2 bg-[rgba(255,255,255,0.88)] border-gray-200 backdrop-blur-md shadow-lg mt-0">
             <div className="flex items-center justify-between p-4">
                 <img
-                    src="src/assets/logo-no-background 3.png"
+                    src={logo}
+                    alt="MedCapSky Logo" 
                     className="max-w-[13rem] "
                 />
                 {/* Hamburger button */}

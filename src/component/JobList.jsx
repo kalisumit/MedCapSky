@@ -1,9 +1,9 @@
-// 
+//
 
 import React from "react";
 import JobCard from "./JobCard";
 
-const JobList = ({ jobs }) => {
+const JobList = ({ jobs, onJobClick }) => {
   return (
     <section className="p-6 max-w-6xl mx-auto">
       <h3 className="text-lg sm:text-xl font-semibold mb-4">Available Jobs</h3>
@@ -11,11 +11,11 @@ const JobList = ({ jobs }) => {
       {jobs.length === 0 ? (
         <p className="text-gray-500">No jobs found.</p>
       ) : (
-        <button className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {jobs.map((job, index) => (
-            <JobCard key={index} job={job} />
+            <JobCard key={index} job={job} onClick={() => onJobClick(job)} />
           ))}
-        </button>
+        </div>
       )}
     </section>
   );
