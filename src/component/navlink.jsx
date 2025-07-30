@@ -13,7 +13,7 @@ function Navlink(){
     }
 
     return(
-        <nav className="fixed top-0 left-0 w-full z-50 border-b-2 bg-[rgba(255,255,255,0.88)] border-gray-200 backdrop-blur-md shadow-lg mt-0">
+        <nav className="fixed top-0 left-0 w-full z-50 md:border-b-2 bg-[rgba(255,255,255,0.88)] border-gray-200 backdrop-blur-md shadow-lg mt-0">
             <div className="flex items-center justify-between p-4">
                 <img
                     src={logo}
@@ -50,7 +50,7 @@ function Navlink(){
 
             {/* Mobile menu */}
                 {open && (
-                    <ul className="md:hidden flex flex-col items-center bg-white text-xl font-semibold space-y-2 py-2 shadow">
+                    <ul className="md:hidden flex flex-col items-center bg-[rgba(255,255,255,0.0 )] text-xl font-semibold space-y-2 py-2 shadow">
                     <li><Link to="/" onClick={() => setOpen(false)}>Home</Link></li>
                     <li><Link to="/jobSearch" onClick={() => setOpen(false)}>Job Search</Link></li>
                     <li><Link to="/about" onClick={() => setOpen(false)}>About</Link></li>

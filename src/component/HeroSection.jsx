@@ -1,12 +1,12 @@
 import React from "react";
-// import bgImage from "src/assets/job_bg.png"; // ✅ adjust the path to where you saved the image
+import bgImage from "../assets/job_bg.png"; // ✅ adjust the path to where you saved the image
 function HeroSection(){
   return (
     // <div ">
     <section
-      className="relative h-[500px] flex flex-col justify-center items-center text-center bg-contain bg-no-repeat bg-white bg-center "
-      // style={{ backgroundImage: `url(${bgImage})` }}
-      style={{ backgroundImage: "url('/assets/job_bg.png')" }}
+      className="relative h-[500px] flex flex-col justify-center items-center text-center bg-contain bg-no-repeat bg-white bg-center mt-20 md:max-w-[70%] mx-auto"
+      style={{ backgroundImage: `url(${bgImage})`, maxWidth : "950px", backgroundSize: "cover", backgroundRepeat:"repeat-x" }}
+    
     >
       {/* Dark overlay for better text visibility */}
       <div className="absolute inset-0 bg-black/40"></div>

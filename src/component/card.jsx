@@ -3,7 +3,7 @@ import React from 'react';
 // Main App component to demonstrate the StatisticCard
 export default function Card() {
   return (
-    <div className=" flex items-center justify-evenly px-2 font-sans overflow-auto ">
+    <div className=" flex items-center justify-evenly px-2 py-10 font-sans overflow-auto ">
         <div className=" flex items-center  justify-center p-4 font-sans w-[30%] min-w-[130px] ">
         <StatisticCard
             title="Cities"
@@ -14,7 +14,7 @@ export default function Card() {
         </div>
         <div className="  flex items-center justify-center px-2 font-sans w-[30%] min-w-[120px]">
         <StatisticCard
-            title="Caregiverse"
+            title="Caregivers"
             value="500+"
             change="+5%"
             changeColor="text-green-400" // Tailwind class for text color
@@ -49,11 +49,11 @@ function StatisticCard({ title, value, change, changeColor = "text-green-400" })
     <div className="
       relative
       w-full  p-3
-      bg-gradient-to-br from-blue-600 to-purple-700
+      bg-gradient-to-br from-sky-500 to-blue-700
       rounded-2xl shadow-xl
       overflow-hidden
       transform transition-all duration-300 hover:scale-105
-      border-b-4 border-purple-900 flex flex-col
+      border-b-4 border-blue-900 flex flex-col
       justify-center 
        
       
@@ -66,12 +66,12 @@ function StatisticCard({ title, value, change, changeColor = "text-green-400" })
 
       <div className="relative z-10 text-white">
         {/* Title */}
-        <h3 className="text-[1rem] md:text-xl font-semibold mb-2 opacity-90">
+        <h3 className="text-[1rem] md:text-xl font-semibold  md:mb-2 opacity-90">
           {title}
         </h3>
 
         {/* Value */}
-        <p className="text-[1.25rem] md:text-4xl font-bold mb-3">
+        <p className="text-[1.25rem] md:text-4xl font-bold  md:mb-3">
           {value}
         </p>
 

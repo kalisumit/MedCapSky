@@ -39,11 +39,11 @@ function PhoneBn(){
 
 
             {/* Second banner */}  
-            <div className="flex flex-col items-center w-full md:flex md:flex-row md:justify-around my-10  md:p-8">
+            <div className="flex flex-col items-center w-full md:flex md:flex-row md:justify-around my-12  md:p-8">
                 {/* Right side content */}
                 <div className="md:max-w-[30%] md:flex" >
                     {/* Phone banner */}
-                    <img src={Group_49} alt="Phone Banner" className="hidden md:block md:w-full md:justify-center md:h-auto md:object-cover" />
+                    <img src={Group_49} alt="Phone Banner" className="hidden md:block md:w-full md:justify-center md:h-auto md:object-cover my-5" />
                 </div>
                 {/* Left side content */}
                 <div className="
@@ -80,12 +80,12 @@ function PhoneBn(){
                         {/* heading */}
                     <div className="flex flex-col items-center justify-center">
                         <h1 className="text-2xl md:text-5xl font-bold text-center my-4"> Personalised <span className="text-blue-500">Schedule an appointment</span> with your caretaker</h1>
-                        <img src={Group_50} alt="Phone Banner" className="w-[50%] md:hidden " />
+                        <img src={Group_50} alt="Phone Banner" className="w-[50%] md:hidden my-8 " />
                     </div>
                        
                         {/* written content */}
                     <div className=" p-4">
-                        <p className="md:text-xl text-center">Get expert care for your infant or toddler at home with our trained and loving caregivers. From feeding and hygiene to play and comfort, we ensure gentle, reliable support tailored to your child’s needs. Flexible schedules, personalized plans, and regular updates—so you can focus on what matters most.</p>
+                        <p className="md:text-xl text-center">Easily schedule an appointment with your trusted caretaker from the comfort of your home. Choose a convenient time, share your care needs, and get matched with a trained professional. Receive personalized, compassionate care delivered right to your doorstep—on your terms.</p>
                     </div>
                     <BookBtn name="Schedule Caretaker"/>
                        
@@ -116,7 +116,7 @@ function PhoneBn(){
                         {/* heading */}
                     <div className="flex flex-col items-center justify-center">
                         <h1 className="text-2xl md:text-5xl font-bold text-center my-4"> Select <span className="text-blue-500">Baby Care</span> at Home</h1>
-                        <img src={Group_51} alt="Phone Banner" className="w-[50%] md:hidden " />
+                        <img src={Group_51} alt="Phone Banner" className="w-[50%] md:hidden my-8 " />
                     </div>
                        
                         {/* written content */}

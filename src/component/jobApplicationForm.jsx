@@ -26,7 +26,7 @@ const JobApplicationForm = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 mt-30 mb-10 bg-white border rounded-md shadow-sm">
+    <div className="max-w-2xl md:mx-auto mx-3  p-6 mt-30 mb-10 bg-white border rounded-md shadow-sm">
       <h2 className="text-2xl font-bold mb-6">Apply for this position</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">

@@ -12,9 +12,9 @@ function CareSol() {
         <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-8 lg:px-16 py-5">
             
             {/* first Card */}
-            <div className="flex justify-center items-end ">
-                <div className=" flex justify-around items-center ">
-                    <div className="max-w-[30%] flex items-center justify-center ">
+            <div className="flex justify-center items-end pt-5 ">
+                <div className=" flex justify-around items-start">
+                    <div className="max-w-[30%] flex items-start justify-center ">
                         {/* image */}
                         {/* <img src={src} className="w-full" /> */}
                         <img src={Nursing}/>
@@ -37,8 +37,8 @@ function CareSol() {
             </div>
 
             {/* second Card */}
-            <div className="flex justify-center items-center ">
-                <div className=" flex justify-around items-center">
+            <div className="flex justify-center items-center pt-5 ">
+                <div className=" flex justify-around items-start">
                 <div className="max-w-[30%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
@@ -62,8 +62,8 @@ function CareSol() {
             </div>
 
             {/* third Card */}
-            <div className="flex justify-center items-center ">
-                <div className=" flex justify-around items-center">
+            <div className="flex justify-center items-center pt-5 ">
+                <div className=" flex justify-around items-start">
                 <div className="max-w-[30%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
@@ -87,8 +87,8 @@ function CareSol() {
             </div>
 
              {/* Fourth Card */}
-            <div className="flex justify-center items-center ">
-                <div className=" flex justify-around items-center">
+            <div className="flex justify-center items-center pt-5 ">
+                <div className=" flex justify-around items-start">
                 <div className="max-w-[25%] flex items-center justify-center ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
@@ -112,9 +112,9 @@ function CareSol() {
             </div>
 
              {/* fifth Card */}
-            <div className="flex justify-center items-center ">
+            <div className="flex justify-center items-start pt-12 ">
                 
-                <div className="max-w-[25%] flex items-center justify-center mr-5 ">
+                <div className="max-w-[25%] flex items-start justify-center mr-5 ">
                     {/* image */}
                     {/* <img src={src} className="w-full" /> */}
                     <img src={post_surgery_logo}/>
@@ -138,7 +138,7 @@ function CareSol() {
 
 
             {/* Sixth Card */}
-            <div className="flex justify-center items-center ">
+            <div className="flex justify-center items-start pt-10 ">
                 
                 <div className="max-w-[25%] flex items-center justify-center ">
                     {/* image */}
