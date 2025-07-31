@@ -100,7 +100,7 @@ function About() {
           {/* image and content  */}
           <div className="flex flex-col items-center justify-center text-center">
             <img src={work_abt} alt="About Logo" className=" mx-auto my-4 mb-6 md:my-15" />
-            <p className="text-xl md:text-3xl text-[#7c7c7c]">Over the past 6+ years, we have successfully deployed highly trained medical professionals to various home care and hospitals, fulfilling critical, Emergency, ACLS & BCLS staffing gaps in the healthcare sector. Our services have directly contributed to improving hospital operations, patient care standards, and overall healthcare efficiency.<br/>By building strong relationships with leading hospitals and healthcare facilities, we have established ourselves as a trusted staffing provider capable of delivering qualified professionals on time and as per demand.
+            <p className="text-xl sm:px-8 md:text-3xl text-[#7c7c7c]">Over the past 6+ years, we have successfully deployed highly trained medical professionals to various home care and hospitals, fulfilling critical, Emergency, ACLS & BCLS staffing gaps in the healthcare sector. Our services have directly contributed to improving hospital operations, patient care standards, and overall healthcare efficiency.<br/>By building strong relationships with leading hospitals and healthcare facilities, we have established ourselves as a trusted staffing provider capable of delivering qualified professionals on time and as per demand.
 
 </p>
           </div>

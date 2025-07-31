@@ -17,7 +17,7 @@ function Sliders(){
     arrows: false
     };
     return(
-        <div className=" mx-auto md:w-[80%] m-auto bg-gray-100 md:p-8 rounded-lg shadow-lg">
+        <div className="  md:w-[80%] mx-5 md:mx-auto bg-gray-100 md:p-8 rounded-lg shadow-lg">
         <Slider {...settings}>
             {data.map((d) => (
             <div className=" flex  justify-center  items-center ">

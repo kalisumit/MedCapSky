@@ -54,7 +54,7 @@ function CareSol() {
                     </div>
                     <div className=" ">
                         {/* Content */}
-                        <p className="md:text-xl text-left text-gray-500 ">Empowering hospitals, clinics, and care centers with verified, on-demand healthcare professional — including nurses, caretakers, and paramedics.</p>
+                        <p className="md:text-xl text-left text-gray-500 ">Empowering hospitals, clinics, and care centers with verified, on-demand healthcare professionals — including nurses, caretakers, and paramedics.</p>
                         {/* <p>{content}</p> */}
                     </div>
                 </div>
